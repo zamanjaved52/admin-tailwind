@@ -2,11 +2,10 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="UTF-8"  >
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"  >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Dashboard - Yeti Admin</title>
-
+    <title>Genesys Now</title>
 
     <!-- Generics -->
     <link rel="icon" href="  assets/images/favicon/favicon-32.png" sizes="32x32">
@@ -21,7 +20,10 @@
     <link rel="apple-touch-icon" href="  assets/images/favicon/favicon-167.png" sizes="167x167">
     <link rel="apple-touch-icon" href="  assets/images/favicon/favicon-180.png" sizes="180x180">
 
-    <link rel="stylesheet" href="  assets/css/style.css"  >
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <!--datatable-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!---->
 </head>
 
 <body>
@@ -33,7 +35,7 @@
     <button type="button" class="menu-toggler la la-bars" data-toggle="menu"></button>
 
     <!-- Brand -->
-    <span class="brand">Yeti</span>
+    <span class="brand">Genesys Now</span>
 
     <!-- Search -->
     <form class="hidden md:block ltr:ml-10 rtl:mr-10" action="#">
@@ -157,7 +159,10 @@
                     <a href="#"
                        class="flex items-center text-gray-700 dark:text-gray-500 hover:text-primary dark:hover:text-primary">
                         <span class="la la-power-off text-2xl leading-none ltr:mr-2 rtl:ml-2"></span>
-                        Logout
+                        <form action="{{ route('logout') }}" method="post">
+                            @csrf
+                            <button type="submit">Logout</button>
+                        </form>
                     </a>
                 </div>
             </div>
@@ -189,7 +194,7 @@
             <span class="title">Annuity</span>
         </a>
 
-        <a href="#no-link" class="link" data-target="[data-menu=applications]" data-toggle="tooltip-menu"
+       {{-- <a href="#no-link" class="link" data-target="[data-menu=applications]" data-toggle="tooltip-menu"
            data-tippy-content="Applications">
             <span class="icon la la-store"></span>
             <span class="title">Applications</span>
@@ -211,6 +216,19 @@
            data-tippy-content="Docs">
             <span class="icon la la-book-open"></span>
             <span class="title">Docs</span>
+        </a>
+     --}}
+        <a href="https://yetiadmin.yetithemes.net/docs" target="_blank" class="link" data-toggle="tooltip-menu"
+           data-tippy-content="Docs">
+
+            <span class="la la-power-off text-2xl leading-none "></span>
+            <span class="title">
+                <form action="{{ route('logout') }}" method="post">
+       @csrf
+
+       <button type="submit">Logout</button>
+            </form>
+            </span>
         </a>
     </div>
 
@@ -236,22 +254,22 @@
 
     <!-- Pages -->
     <div class="menu-detail" data-menu="pages">
-{{--        <div class="menu-detail">--}}
+        {{--        <div class="menu-detail">--}}
         <div>
-{{--            <h6 class="uppercase">Authentication</h6>--}}
-            <a href="auth-login.html">
+            {{--            <h6 class="uppercase">Authentication</h6>--}}
+            <a href="{{url('annuity/lookup')}}">
                 <span class="icon la la-file-alt"></span>
                 Lookup
             </a>
-            <a href="auth-forgot-password.html">
+            <a href="{{url('annuity/getannuity')}}">
                 <span class="icon la la-file-alt"></span>
                 Get Annuity
             </a>
-            <a href="auth-register.html">
+            <a href="{{url('annuity/validate')}}">
                 <span class="icon la la-file-alt"></span>
                 Validate
             </a>
-            <a href="auth-register.html">
+            <a href="{{url('annuity/payment')}}">
                 <span class="icon la la-file-alt"></span>
                 Payment
             </a>
@@ -510,7 +528,7 @@
 <main class="workspace overflow-hidden">
 
 @yield('content')
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="mt-auto">
         <div class="footer">
             <span class='uppercase'>&copy; 2021 Yeti Themes</span>
@@ -525,10 +543,21 @@
 </main>
 
 <!-- Scripts -->
-<script src="  assets/js/vendor.js"></script>
-<script src="  assets/js/chart.min.js"></script>
+<script src="{{asset('assets/js/vendor.js')}}"></script>
+<script src="{{asset('assets/js/chart.min.js')}}"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1"></script> -->
-<script src="  assets/js/script.js"></script>
+<script src="{{asset('assets/js/script.js')}}"></script>
+
+{{--datatable--}}
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.example').DataTable();
+    } );
+</script>
+{{----}}
+
 
 </body>
 

@@ -15,6 +15,25 @@ class AdminController extends Controller
     {
         return view('admin.dashboard');
     }
+    public function lookup()
+    {
+        return view('admin.pages.annuity.lookup');
+    }
+
+    public function getannuity()
+    {
+        return view('admin.pages.annuity.lookup');
+    }
+
+    public function payment()
+    {
+        return view('admin.pages.annuity.lookup');
+    }
+
+    public function validatee()
+    {
+        return view('admin.pages.annuity.lookup');
+    }
 
 
     /**

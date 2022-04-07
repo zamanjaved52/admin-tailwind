@@ -27,3 +27,9 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::get('admin',[\App\Http\Controllers\AdminController::class,'index']);
+
+Route::get('annuity/lookup',[\App\Http\Controllers\AdminController::class,'lookup']);
+Route::get('annuity/getannuity',[\App\Http\Controllers\AdminController::class,'getannuity']);
+Route::get('annuity/payment',[\App\Http\Controllers\AdminController::class,'payment']);
+Route::get('annuity/validate',[\App\Http\Controllers\AdminController::class,'validatee']);
+
