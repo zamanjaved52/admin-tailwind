@@ -156,9 +156,10 @@
                 </div>
                 <hr>
                 <div class="p-5">
-                    <a href="#"
-                       class="flex items-center text-gray-700 dark:text-gray-500 hover:text-primary dark:hover:text-primary">
-                        <span class="la la-power-off text-2xl leading-none ltr:mr-2 rtl:ml-2"></span>
+                    <a href="#" class="link" data-toggle="tooltip-menu"
+                       data-tippy-content="Docs">
+
+                        <span class="la la-power-off text-2xl leading-none "></span>
                         <form action="{{ route('logout') }}" method="post">
                             @csrf
                             <button type="submit">Logout</button>
@@ -218,7 +219,7 @@
             <span class="title">Docs</span>
         </a>
      --}}
-        <a href="#" target="_blank" class="link" data-toggle="tooltip-menu"
+        <a href="#"class="link" data-toggle="tooltip-menu"
            data-tippy-content="Docs">
 
             <span class="la la-power-off text-2xl leading-none "></span>
@@ -226,7 +227,6 @@
                 @csrf
                 <button type="submit">Logout</button>
             </form>
-            </span>
         </a>
     </div>
 
