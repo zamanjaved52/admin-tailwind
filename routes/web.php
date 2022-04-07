@@ -25,3 +25,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('admin',[\App\Http\Controllers\AdminController::class,'index']);
+Route::get('dashboard1',[\App\Http\Controllers\AdminController::class,'dashboard']);

@@ -1,0 +1,109 @@
+@@include("partials/_header.html", {"title": "Alerts - Components - UI"})
+
+<body>
+
+    @@include("partials/_navigation.html")
+
+    <!-- Workspace -->
+    <main class="workspace">
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb">
+            <h1>Alerts</h1>
+            <ul>
+                <li><a href="#">UI</a></li>
+                <li class="divider la la-arrow-right"></li>
+                <li><a href="#">Components</a></li>
+                <li class="divider la la-arrow-right"></li>
+                <li>Alerts</li>
+            </ul>
+        </section>
+
+        <div class="lg:flex lg:-mx-4">
+
+            <!-- Default -->
+            <div class="lg:w-1/2 lg:px-4">
+                <div class="card p-5">
+                    <h3>Default</h3>
+                    <div class="alert alert_primary mt-5">
+                        <strong class="uppercase"><bdi>Hello!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_secondary mt-5">
+                        <strong class="uppercase"><bdi>Hello!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_success mt-5">
+                        <strong class="uppercase"><bdi>Success!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_danger mt-5">
+                        <strong class="uppercase"><bdi>Danger!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_warning mt-5">
+                        <strong class="uppercase"><bdi>Warning!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_info mt-5">
+                        <strong class="uppercase"><bdi>Info!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outlined -->
+            <div class="lg:w-1/2 lg:px-4 pt-5 lg:pt-0">
+                <div class="card p-5">
+                    <h3>Outlined</h3>
+                    <div class="alert alert_outlined alert_primary mt-5">
+                        <strong class="uppercase"><bdi>Hello!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_outlined alert_secondary mt-5">
+                        <strong class="uppercase"><bdi>Hello!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_outlined alert_success mt-5">
+                        <strong class="uppercase"><bdi>Success!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_outlined alert_danger mt-5">
+                        <strong class="uppercase"><bdi>Danger!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_outlined alert_warning mt-5">
+                        <strong class="uppercase"><bdi>Warning!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert_outlined alert_info mt-5">
+                        <strong class="uppercase"><bdi>Info!</bdi></strong>
+                        This is an alert message.
+                        <button type="button" class="dismiss la la-times" data-dismiss="alert"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @@include("partials/_footer.html")
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

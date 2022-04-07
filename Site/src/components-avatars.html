@@ -1,0 +1,162 @@
+@@include("partials/_header.html", {"title": "Avatars - Components - UI"})
+
+<body>
+
+    @@include("partials/_navigation.html")
+
+    <!-- Workspace -->
+    <main class="workspace">
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb">
+            <h1>Avatars</h1>
+            <ul>
+                <li><a href="#">UI</a></li>
+                <li class="divider la la-arrow-right"></li>
+                <li><a href="#">Components</a></li>
+                <li class="divider la la-arrow-right"></li>
+                <li>Avatars</li>
+            </ul>
+        </section>
+
+        <div class="lg:flex lg:-mx-4">
+
+            <!-- Default -->
+            <div class="lg:w-1/4 lg:px-4">
+                <div class="card p-5">
+                    <h3>Default</h3>
+                    <div class="mt-4 flex flex-wrap items-center">
+                        <div class="avatar">
+                            <img src="assets/images/potato.jpg">
+                        </div>
+                        <div class="avatar w-16 h-16 ltr:ml-4 rtl:mr-4">
+                            <img src="assets/images/tomato.jpg">
+                        </div>
+                        <div class="avatar w-20 h-20 ltr:ml-4 rtl:mr-4">
+                            <img src="assets/images/breakfast.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5 mt-5">
+                    <h3>Default With Initials</h3>
+                    <div class="mt-4 flex flex-wrap items-center">
+                        <div class="avatar">JD</div>
+                        <div class="avatar w-16 h-16 text-2xl ltr:ml-4 rtl:mr-4">JD</div>
+                        <div class="avatar w-20 h-20 text-4xl ltr:ml-4 rtl:mr-4">JD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-1/4 lg:px-4 pt-5 lg:pt-0">
+                <div class="card p-5">
+                    <h3>Default With Status</h3>
+                    <div class="mt-4 flex flex-wrap items-center">
+                        <div class="avatar">
+                            <div class="status bg-green"></div>
+                            <img src="assets/images/potato.jpg">
+                        </div>
+                        <div class="avatar w-16 h-16 ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-yellow"></div>
+                            <img src="assets/images/tomato.jpg">
+                        </div>
+                        <div class="avatar w-20 h-20 ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-red"></div>
+                            <img src="assets/images/breakfast.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5 mt-5">
+                    <h3>Default With Initials & Status</h3>
+                    <div class="mt-4 flex flex-wrap items-center">
+                        <div class="avatar">
+                            <div class="status bg-green"></div>
+                            JD
+                        </div>
+                        <div class="avatar w-16 h-16 text-2xl ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-yellow"></div>
+                            JD
+                        </div>
+                        <div class="avatar w-20 h-20 text-4xl ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-red"></div>
+                            JD
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shadowed -->
+            <div class="lg:w-1/4 lg:px-4 pt-5 lg:pt-0">
+                <div class="card p-5">
+                    <h3>Shadowed</h3>
+                    <div class="mt-4 flex items-center">
+                        <div class="avatar avatar_with-shadow">
+                            <img src="assets/images/potato.jpg">
+                        </div>
+                        <div class="avatar avatar_with-shadow w-16 h-16 ltr:ml-4 rtl:mr-4">
+                            <img src="assets/images/tomato.jpg">
+                        </div>
+                        <div class="avatar avatar_with-shadow w-20 h-20 ltr:ml-4 rtl:mr-4">
+                            <img src="assets/images/breakfast.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5 mt-5">
+                    <h3>Shadowed With Initials</h3>
+                    <div class="mt-4 flex items-center">
+                        <div class="avatar avatar_with-shadow text-xl">JD</div>
+                        <div class="avatar avatar_with-shadow w-16 h-16 text-2xl ltr:ml-4 rtl:mr-4">
+                            JD</div>
+                        <div class="avatar avatar_with-shadow w-20 h-20 text-4xl ltr:ml-4 rtl:mr-4">
+                            JD</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 lg:px-4 pt-5 lg:pt-0">
+                <div class="card p-5">
+                    <h3>Shadowed With Status</h3>
+                    <div class="mt-4 flex items-center">
+                        <div class="avatar avatar_with-shadow">
+                            <div class="status bg-green"></div>
+                            <img src="assets/images/potato.jpg">
+                        </div>
+                        <div class="avatar avatar_with-shadow w-16 h-16 ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-yellow"></div>
+                            <img src="assets/images/tomato.jpg">
+                        </div>
+                        <div class="avatar avatar_with-shadow w-20 h-20 ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-red"></div>
+                            <img src="assets/images/breakfast.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5 mt-5">
+                    <h3>Shadowed With Initials & Status</h3>
+                    <div class="mt-4 flex items-center">
+                        <div class="avatar avatar_with-shadow text-xl">
+                            <div class="status bg-green"></div>
+                            JD
+                        </div>
+                        <div class="avatar avatar_with-shadow w-16 h-16 text-2xl ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-yellow"></div>
+                            JD
+                        </div>
+                        <div class="avatar avatar_with-shadow w-20 h-20 text-4xl ltr:ml-4 rtl:mr-4">
+                            <div class="status bg-red"></div>
+                            JD
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @@include("partials/_footer.html")
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
