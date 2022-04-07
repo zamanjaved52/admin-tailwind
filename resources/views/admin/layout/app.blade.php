@@ -183,7 +183,7 @@
             </a>
             <hr class="mx-8 my-4">
         </div>
-        <a href="{{url('dashboard1')}}" class="link" data-toggle="tooltip-menu" data-tippy-content="Dashboard">
+        <a href="{{url('admin')}}" class="link" data-toggle="tooltip-menu" data-tippy-content="Dashboard">
             <span class="icon la la-laptop"></span>
             <span class="title">Dashboard</span>
         </a>
@@ -218,15 +218,13 @@
             <span class="title">Docs</span>
         </a>
      --}}
-        <a href="https://yetiadmin.yetithemes.net/docs" target="_blank" class="link" data-toggle="tooltip-menu"
+        <a href="#" target="_blank" class="link" data-toggle="tooltip-menu"
            data-tippy-content="Docs">
 
             <span class="la la-power-off text-2xl leading-none "></span>
-            <span class="title">
-                <form action="{{ route('logout') }}" method="post">
-       @csrf
-
-       <button type="submit">Logout</button>
+            <form action="{{ route('logout') }}" method="post">
+                @csrf
+                <button type="submit">Logout</button>
             </form>
             </span>
         </a>
