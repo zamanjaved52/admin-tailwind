@@ -26,7 +26,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('admin',[\App\Http\Controllers\AdminController::class,'index']);
+Route::get('panel',[\App\Http\Controllers\AdminController::class,'index']);
 
 Route::get('annuity/lookup',[\App\Http\Controllers\AdminController::class,'lookup']);
 Route::get('annuity/getannuity',[\App\Http\Controllers\AdminController::class,'getannuity']);
