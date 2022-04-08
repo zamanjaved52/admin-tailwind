@@ -76,9 +76,9 @@
             </a>
             <ul>
                 <li><a href="{{url('annuity/lookup')}}">Look up</a></li>
-                <li><a href="mail_box.html">Mail Box</a></li>
-                <li><a href="chat.html">Chat</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="{{url('annuity/getannuity')}}">Get Annuity</a></li>
+                <li><a href="{{url('annuity/payment')}}">Payment</a></li>
+                <li><a href="{{url('annuity/validate')}}">Validate</a></li>
             </ul>
         </li>
 
@@ -364,7 +364,7 @@
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('#example').DataTable();
+        $('.example').DataTable();
     } );
 </script>
 </body>
