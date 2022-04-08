@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+<!-- datatable -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -124,7 +126,7 @@
                         <a href="#" class="nav-link " style="color: white">
                             <i class="nav-icon fas fa-sign-out-alt"></i>
                             <p>
-                                Logout
+                                Logouts
                             </p>
                         </a>
                     </li>
