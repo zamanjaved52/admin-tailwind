@@ -171,6 +171,7 @@
 <script>
     $('.example').dataTable( {
         "pageLength": 50,
+        'sort':false,
         "order": [[ 1, "desc" ]]
     } );
 </script>
