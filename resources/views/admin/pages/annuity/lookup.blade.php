@@ -5,23 +5,25 @@
         <thead>
         <tr>
             <th>Code</th>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
+        </tr>
+        <tr>
             <th>Default Label</th>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
+            </tr>
+
+        <tr>
+
             <th>Description</th>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
+            <td>Tiger Nixon</td>
         </tr>
         </thead>
-        <tbody>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-        </tr>
-        <tr>
-            <td>Garrett Winters</td>
-            <td>Accountant</td>
-            <td>Tokyo</td>
-        </tr>
-
-        </tbody>
     </table>
 
 
