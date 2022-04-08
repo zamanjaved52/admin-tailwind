@@ -122,13 +122,18 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item ">
-                        <a href="#" class="nav-link " style="color: white">
-                            <i class="nav-icon fas fa-sign-out-alt"></i>
-                            <p>
-                                Logouts
-                            </p>
-                        </a>
+                    <li class="nav-item mt-2" style="margin-left: -5px;">
+                    <!-- Authentication -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+
+                        <x-jet-dropdown-link href="{{ route('logout') }}"
+                                             onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                            <i class="nav-icon fas fa-sign-out-alt" style="color: white;font-size: 20px"></i>
+                          <span style="color: white ;font-size: 16px">  {{ __('Log Out') }}</span>
+                        </x-jet-dropdown-link>
+                    </form>
                     </li>
                 </ul>
             </nav>
