@@ -126,7 +126,6 @@
                     <!-- Authentication -->
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
-
                         <x-jet-dropdown-link href="{{ route('logout') }}"
                                              onclick="event.preventDefault();
                                                 this.closest('form').submit();">
@@ -170,9 +169,10 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $('.example').DataTable();
-    });
+    $('.example').dataTable( {
+        "pageLength": 50,
+        "order": [[ 1, "desc" ]]
+    } );
 </script>
 
 
