@@ -198,7 +198,7 @@
 
                             </li>
                             <li>
-                                <a class="CHATBOX_open nav-link-notify" href="#"> <img src="assets/img/icon/msg.svg" alt=""> </a>
+                                <a class="CHATBOX_open nav-link-notify" href="#"> <img src="{{asset('assets/img/icon/msg.svg')}}" alt=""> </a>
                             </li>
                         </div>
                         <div class="profile_info">

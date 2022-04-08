@@ -2230,13 +2230,13 @@ p a:hover {
     right: -7px;
     border-radius: 50%;
     top: -10px;
-    background-color: #64c5b1;
+    background-color: #ffffff;
     -webkit-animation: notify-pulse 1s infinite
 }
 
 @-webkit-keyframes notify-pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(100, 197, 177, .7)
+        box-shadow: 0 0 0 0 rgb(255, 255, 255)
     }
     100% {
         box-shadow: 0 0 0 10px transparent
@@ -2245,7 +2245,7 @@ p a:hover {
 
 @keyframes notify-pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(100, 197, 177, .7)
+        box-shadow: 0 0 0 0 rgb(255, 255, 255)
     }
     100% {
         box-shadow: 0 0 0 10px transparent
@@ -2923,7 +2923,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child::before {
 }
 
 .header_iner.default_header {
-    background: #64c5b1;
+    background: #ffffff;
     border-radius: 0
 }
 
@@ -3498,7 +3498,7 @@ table.dataTable {
     overflow: hidden;
     overflow-y: auto;
     transition: .5s;
-    background: #fff;
+    background: #0d6efd;
     box-shadow: 0 12px 30px rgba(80, 143, 244, .1)
 }
 
@@ -3836,7 +3836,7 @@ table.dataTable {
 }
 
 .sidebar #sidebar_menu>li>a {
-    color: #144339
+    color: #ffffff
 }
 
 .sidebar #sidebar_menu>li.mm-active>a {
@@ -3884,7 +3884,7 @@ table.dataTable {
 
 .sidebar #sidebar_menu>li ul li a {
     font-size: 14px;
-    color: #8890b5;
+    color: #ffffff;
     font-weight: 400;
     padding: 0;
     white-space: nowrap;
@@ -4309,7 +4309,7 @@ body::-webkit-scrollbar {
     right: 0;
     height: 160px;
     z-index: -1;
-    background: #64c5b1;
+    background: #ffffff;
     content: '';
     border-radius: 0;
     left: 0
@@ -5159,7 +5159,7 @@ body::-webkit-scrollbar {
     right: 0;
     bottom: 0;
     background: #f3f4f3;
-    background: #64c5b1
+    background: #ffffff
 }
 
 .footer_part.default_footer {
@@ -5187,13 +5187,13 @@ body::-webkit-scrollbar {
     padding: 27px 0;
     margin: 0 15px;
     border-radius: 5px;
-    background: #64c5b1
+    background: #ffffff
 }
 
 .footer_part p {
     font-size: 12px;
     font-weight: 500;
-    color: #fff
+    color: #000000
 }
 
 .footer_part p span {
@@ -5201,7 +5201,7 @@ body::-webkit-scrollbar {
 }
 
 .footer_part p a {
-    color: #fff
+    color: #000000
 }
 
 .footer_part p a:hover {
