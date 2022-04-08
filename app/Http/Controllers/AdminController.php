@@ -22,17 +22,17 @@ class AdminController extends Controller
 
     public function getannuity()
     {
-        return view('admin.pages.annuity.lookup');
+        return view('admin.pages.annuity.getannuity');
     }
 
     public function payment()
     {
-        return view('admin.pages.annuity.lookup');
+        return view('admin.pages.annuity.payment');
     }
 
     public function validatee()
     {
-        return view('admin.pages.annuity.lookup');
+        return view('admin.pages.annuity.validate');
     }
 
 

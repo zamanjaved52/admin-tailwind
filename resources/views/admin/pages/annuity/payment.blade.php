@@ -1,7 +1,7 @@
 @extends('admin.layout.app')
 @section('content')
 
-    <table id="example" class="example display" style="width:100%">
+    <table id="" class="example display" style="width:100%">
         <thead>
         <tr>
             <th>Name</th>
