@@ -5,6 +5,7 @@
         .vertical-header-column {
             font-weight: bold;
             color: #000000;
+            width: 25%;
         }
     </style>
 
@@ -13,101 +14,166 @@
         <tr>
             <th data-column="Username" class="vertical-header-column"></th>
             <th data-column="Balakumar"></th>
-            <th data-column="Balakumar"></th>
-            <th data-column="Balakumar"></th>
-            <th data-column="Balakumar"></th>
-            <th data-column="Balakumar"></th>
+
         </tr>
         </thead>
         <tbody>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col1</th>
-            <td data-column="Balakumar">3</td>
-            <td data-column="Balakumar">3</td>
-            <td data-column="Balakumar">3</td>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col2</th>
-            <td data-column="Balakumar">2</td>
-            <td data-column="Balakumar">2</td>
-            <td data-column="Balakumar">2</td>
-            <td data-column="Balakumar">2</td>
-            <td data-column="Balakumar">2</td>
+            <th data-column="Username" class="vertical-header-column">TITLE</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col3</th>
-            <td data-column="Balakumar">5</td>
-            <td data-column="Balakumar">5</td>
-            <td data-column="Balakumar">5</td>
-            <td data-column="Balakumar">5</td>
-            <td data-column="Balakumar">5</td>
+            <th data-column="Username" class="vertical-header-column">FIRST_NAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
+            <th data-column="Username" class="vertical-header-column">MIDDLE_NAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
+            <th data-column="Username" class="vertical-header-column">SURNAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-        </tr><tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-        </tr><tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
+            <th data-column="Username" class="vertical-header-column">SUFFIX</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-        </tr><tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-        </tr><tr>
-            <th data-column="Username" class="vertical-header-column">Col4</th>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
-            <td data-column="Balakumar">85</td>
+            <th data-column="Username" class="vertical-header-column">INITIALS</th>
+            <td data-column="Balakumar">3</td>
         </tr>
-
-
-
-
+        <tr>
+            <th data-column="Username" class="vertical-header-column">DOB</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">CURRENT_AGE</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SEX</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SMOKER</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">RISK_RATING</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
         </tbody>
     </table>
 
