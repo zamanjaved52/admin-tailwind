@@ -23,7 +23,7 @@
             <td>Tokyo</td>
 
         </tr>
-    
+
         </tbody>
     </table>
 

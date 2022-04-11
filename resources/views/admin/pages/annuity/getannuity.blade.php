@@ -19,7 +19,9 @@
         <tbody>
         <tr>
             <th data-column="Username" class="vertical-header-column">PERNO</th>
-            <td data-column="Balakumar">3</td>
+            <td data-column="Balakumar">
+              2
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">TITLE</th>
@@ -66,12 +68,32 @@
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">PERSON_STATUS dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">PERSON_STATUS </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">NATIONALITY dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">NATIONALITY </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">PEP_STATUS</th>
@@ -82,12 +104,32 @@
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">PREFERRED_PAYMENT_MODE dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">PREFERRED_PAYMENT_MODE </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">MEASUREMENT dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">MEASUREMENT </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>UNIT: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">SUB_STANDARD</th>
@@ -110,16 +152,46 @@
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">BIRTH_NATIONALITY dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">BIRTH_NATIONALITY </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">RESIDENCY dropdown</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">RESIDENCY </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">MARITAL_STATUS dropdown </th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">MARITAL_STATUS  </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">MOTHERS_NAME</th>
@@ -138,21 +210,57 @@
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">CURRENT_ADDRESS drop</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">CURRENT_ADDRESS </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>A</td>
+                        <th>MEANING: </th>
+                        <td>Active</td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">YRS_AT_ADDRESS</th>
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">PREVIOUS_ADDRESS drop</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">PREVIOUS_ADDRESS </th>
+            <td data-column="Balakumar">
+                <table class="" style="margin-left: 10px;width: 50%">
+                    <tr>
+                        <th>ADDRNO: </th>
+                        <td>45</td>
+                        <th>ADDR1: </th>
+                        <td>#19  </td>
+                        <th>ADDR2: </th>
+                        <td>SEABREEZE</td>
+                        <th>ADDR3: </th>
+                        <td>NASSAU</td>
+                        <th>ADDR4: </th>
+                        <td></td>
+                        <th>POSTCODE: </th>
+                        <td></td>
+                    </tr>
+
+                </table>
+            </td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">CONTACT_DETAILS drop</th>
-            <td data-column="Balakumar">3</td>
-        </tr>
+            <th data-column="Username" class="vertical-header-column">CONTACT_DETAILS drop </th>
+            <td data-column="Balakumar">
+                <table style="width: 50%">
+                <tr>
+                    <th>VALUE: </th>
+                    <td>1</td>
+                    <th>MEANING: </th>
+                    <td>active</td>
+                </tr>
+            </table>
+
         <tr>
             <th data-column="Username" class="vertical-header-column">PREFERRED_CONTACT_MODE drop</th>
             <td data-column="Balakumar">3</td>
@@ -166,8 +274,17 @@
             <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <th data-column="Username" class="vertical-header-column">CURRENT_OCCUPATION drop</th>
-            <td data-column="Balakumar">3</td>
+            <th data-column="Username" class="vertical-header-column">CURRENT_OCCUPATION </th>
+            <td data-column="Balakumar">
+                <table style="width: 50%">
+                    <tr>
+                        <th>VALUE: </th>
+                        <td>0</td>
+                        <th>MEANING: </th>
+                        <td>Not Required</td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         <tr>
             <th data-column="Username" class="vertical-header-column">PREVIOUS_OCCUPATION</th>
