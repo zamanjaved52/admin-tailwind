@@ -1,99 +1,199 @@
 @extends('admin.layout.app')
 @section('content')
-    <table id="example" class="example display" style="width:100%">
+
+    <style>
+        .vertical-header-column {
+            font-weight: bold;
+            color: #000000;
+            width: 25%;
+        }
+    </style>
+
+    <table id="" class="display example">
         <thead>
         <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th>Salary</th>
+            <th data-column="Username" class="vertical-header-column"></th>
+            <th data-column="Balakumar"></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011/04/25</td>
-            <td>$320,800</td>
+            <th data-column="Username" class="vertical-header-column">PERNO</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Garrett Winters</td>
-            <td>Accountant</td>
-            <td>Tokyo</td>
-            <td>63</td>
-            <td>2011/07/25</td>
-            <td>$170,750</td>
+            <th data-column="Username" class="vertical-header-column">TITLE</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Ashton Cox</td>
-            <td>Junior Technical Author</td>
-            <td>San Francisco</td>
-            <td>66</td>
-            <td>2009/01/12</td>
-            <td>$86,000</td>
+            <th data-column="Username" class="vertical-header-column">FIRST_NAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Cedric Kelly</td>
-            <td>Senior Javascript Developer</td>
-            <td>Edinburgh</td>
-            <td>22</td>
-            <td>2012/03/29</td>
-            <td>$433,060</td>
+            <th data-column="Username" class="vertical-header-column">MIDDLE_NAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Airi Satou</td>
-            <td>Accountant</td>
-            <td>Tokyo</td>
-            <td>33</td>
-            <td>2008/11/28</td>
-            <td>$162,700</td>
+            <th data-column="Username" class="vertical-header-column">SURNAME</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Brielle Williamson</td>
-            <td>Integration Specialist</td>
-            <td>New York</td>
-            <td>61</td>
-            <td>2012/12/02</td>
-            <td>$372,000</td>
+            <th data-column="Username" class="vertical-header-column">SUFFIX</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Herrod Chandler</td>
-            <td>Sales Assistant</td>
-            <td>San Francisco</td>
-            <td>59</td>
-            <td>2012/08/06</td>
-            <td>$137,500</td>
+            <th data-column="Username" class="vertical-header-column">INITIALS</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Rhona Davidson</td>
-            <td>Integration Specialist</td>
-            <td>Tokyo</td>
-            <td>55</td>
-            <td>2010/10/14</td>
-            <td>$327,900</td>
+            <th data-column="Username" class="vertical-header-column">DOB</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Colleen Hurst</td>
-            <td>Javascript Developer</td>
-            <td>San Francisco</td>
-            <td>39</td>
-            <td>2009/09/15</td>
-            <td>$205,500</td>
+            <th data-column="Username" class="vertical-header-column">CURRENT_AGE</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         <tr>
-            <td>Sonya Frost</td>
-            <td>Software Engineer</td>
-            <td>Edinburgh</td>
-            <td>23</td>
-            <td>2008/12/13</td>
-            <td>$103,600</td>
+            <th data-column="Username" class="vertical-header-column">SEX</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SMOKER</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">RISK_RATING</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PERSON_STATUS dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">NATIONALITY dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PEP_STATUS</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">MAIDEN_NAME</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PREFERRED_PAYMENT_MODE dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">MEASUREMENT dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SUB_STANDARD</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">AGE_ADMITTED</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">DEATH_ADMITTED</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">DOD_NOTIFIED</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">DEATH_DATE</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">BIRTH_NATIONALITY dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">RESIDENCY dropdown</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">MARITAL_STATUS dropdown </th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">MOTHERS_NAME</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">FATHERS_NAME</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SALUTATION</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">KNOWN_AS</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">CURRENT_ADDRESS drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">YRS_AT_ADDRESS</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PREVIOUS_ADDRESS drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">CONTACT_DETAILS drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PREFERRED_CONTACT_MODE drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">SEND_SMS</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">IDENTIFICATION drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">CURRENT_OCCUPATION drop</th>
+            <td data-column="Balakumar">3</td>
+        </tr>
+        <tr>
+            <th data-column="Username" class="vertical-header-column">PREVIOUS_OCCUPATION</th>
+            <td data-column="Balakumar">3</td>
         </tr>
         </tbody>
     </table>
 
+    <script>
 
+        this.dTable = $('#vdatatable').DataTable({
+            dom:            'ftip',
+            stateSave:      saveState,
+            retrieve:       true,
+            autoWidth:      true,
+            info:           true,
+            paging:         true,
+            scrollY:        true,
+            scrollX:        true,
+            scrollCollapse: true,
+            fixedHeader:    true,
+            fixedColumns:   {
+                leftColumns: 1
+            },
+        });
+    </script>
 @endsection
+
+
