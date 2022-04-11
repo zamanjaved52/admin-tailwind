@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
+Route::get('pp', function () {
     return view('welcome');
 });
 
@@ -27,7 +27,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::middleware('auth')->group(function (){
 
-Route::get('panel',[\App\Http\Controllers\AdminController::class,'index']);
+Route::get('/',[\App\Http\Controllers\AdminController::class,'index']);
 Route::get('annuity/lookup',[\App\Http\Controllers\AdminController::class,'lookup']);
 Route::get('annuity/getannuity',[\App\Http\Controllers\AdminController::class,'getannuity']);
 Route::get('annuity/payment',[\App\Http\Controllers\AdminController::class,'payment']);
